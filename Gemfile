@@ -9,10 +9,11 @@ gem 'bootsnap', require: false
 gem 'jbuilder'
 gem 'pg', '~> 1.1'
 gem 'puma', '~> 5.0'
+gem 'pundit'
 gem 'rails', '~> 7.0.6'
 gem 'rails_seeds'
 gem 'redis', '~> 4.0'
-gem 'slim', '~> 3.0', '>= 3.0.6'
+gem 'slim-rails'
 gem 'sprockets-rails'
 gem 'stimulus-rails'
 gem 'turbo-rails'
@@ -22,6 +23,7 @@ gem 'vite_ruby'
 
 group :development, :test do
   gem 'debug', platforms: %i[mri mingw x64_mingw]
+  gem 'rspec_junit_formatter'
   gem 'rspec-rails'
   gem 'rubocop'
   gem 'rubocop-performance'
@@ -42,5 +44,6 @@ end
 group :test do
   gem 'capybara'
   gem 'selenium-webdriver'
+  gem 'simplecov', require: false
   gem 'webdrivers'
 end
