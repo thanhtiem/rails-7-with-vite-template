@@ -18,8 +18,10 @@ gem 'sprockets-rails'
 gem 'stimulus-rails'
 gem 'turbo-rails'
 gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
+gem 'tailwindcss-rails'
 gem 'vite_rails'
 gem 'vite_ruby'
+gem 'simple_form'
 
 group :development, :test do
   gem 'debug', platforms: %i[mri mingw x64_mingw]

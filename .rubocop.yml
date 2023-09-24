@@ -5,7 +5,9 @@ require:
 AllCops:
   TargetRubyVersion: 3.2.2
   Exclude:
-    - "db/schema.rb"
+    - 'db/schema.rb'
+    - bin/bundle
+  NewCops: enable
 
 # Bundler
 
@@ -99,8 +101,8 @@ Lint/UnmodifiedReduceAccumulator:
 
 Lint/AmbiguousBlockAssociation:
   Exclude:
-    - "*/spec/**/*"
-    - "spec/**/*"
+    - '*/spec/**/*'
+    - 'spec/**/*'
 
 Lint/AmbiguousOperatorPrecedence:
   Enabled: true
@@ -196,7 +198,7 @@ Naming/BlockForwarding:
 
 Naming/FileName:
   Exclude:
-    - "**/*.tt"
+    - '**/*.tt'
 
 # Security
 
