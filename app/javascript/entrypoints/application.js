@@ -31,4 +31,5 @@ console.log(
 // import '~/index.css'
 
 import '../controllers';
+// import '../controllers/shared';
 import 'flowbite/dist/flowbite.turbo.js';

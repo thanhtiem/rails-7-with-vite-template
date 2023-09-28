@@ -22,6 +22,7 @@ gem 'tailwindcss-rails'
 gem 'vite_rails'
 gem 'vite_ruby'
 gem 'simple_form'
+gem 'simple_form-tailwind'
 
 group :development, :test do
   gem 'debug', platforms: %i[mri mingw x64_mingw]
