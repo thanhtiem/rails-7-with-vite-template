@@ -33,3 +33,4 @@ console.log(
 import '../controllers';
 // import '../controllers/shared';
 import 'flowbite/dist/flowbite.turbo.js';
+import.meta.globEager('./assets/**/*.svg');

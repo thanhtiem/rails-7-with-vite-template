@@ -42,6 +42,7 @@ group :development do
   gem 'rack-mini-profiler'
   gem 'spring'
   gem 'web-console'
+  gem 'htmlbeautifier'
 end
 
 group :test do
