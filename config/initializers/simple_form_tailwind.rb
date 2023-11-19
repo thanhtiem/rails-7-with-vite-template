@@ -34,7 +34,6 @@ SimpleForm.setup do |config|
   config.input_field_valid_class = 'border-green-400'
   config.label_class = 'text-sm font-medium text-gray-600'
 
-
   # vertical forms
   #
   # vertical default_wrapper
