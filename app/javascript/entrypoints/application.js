@@ -1,4 +1,3 @@
-import 'flowbite/dist/flowbite.turbo.js';
 import.meta.globEager('./assets/**/*.svg');
 
 import '@hotwired/turbo-rails';
